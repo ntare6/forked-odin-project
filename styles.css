@@ -22,3 +22,25 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+
+/* grouping two classes together */
+.Uniqo,
+.Uniqo-1 {
+font-size: 28px;
+font-family: "Helvetica","Times New Roman",sans-serif;
+/* using inline-block to place the text sidewide not on top of each other */
+display: inline-block;
+}
+/* applying an individual style */
+.Uniqo{
+  background-color: black;
+  color: white;
+
+}
+/* applying an individual style */
+.Uniqo-1{
+  background-color: yellow;
+  text-align: right;
+
+}
