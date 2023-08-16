@@ -1,17 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Styles for all odd numbered elements */
+.odd {
+  background-color: lightpink;
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
+/* Style for the second element (ID) */
+#unique {
+  color: blue;
+  font-size: 36px;
+}
 
-div{
-  background-color: red;
-  font-size: 32px;
-  text-align: center;
-  color:white;
+/* Styles for the third element (class) */
+.cool-class {
+  font-size: 24px;
+  background-color: lightpink;
+}
+
+/* Style for the fourth element (ID) */
+#another-unique {
+  background-color: lightgreen;
+  font-size: 24px;
   font-weight: bold;
-  
-
 }
-
