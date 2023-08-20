@@ -1,0 +1,24 @@
+/* Target the element with both avatar and proportioned classes */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Target the element with both avatar and distorted classes */
+  .avatar.distorted {
+    width: 200px;
+    height: 400px;
+    object-fit: fill;
+    object-position: top;
+  }
+  
+  /* Additional styling for the original images */
+  .original.proportioned {
+    /* Add any additional styling specific to this combination */
+  }
+  
+  .original.distorted {
+    /* Add any additional styling specific to this combination */
+  }
+  
